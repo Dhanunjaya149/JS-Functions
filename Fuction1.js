@@ -42,4 +42,14 @@ mul(3,4,-3)
 mul(0,4,0)
 mul(7,0,-3)
 
+let fname="AB.Devilliers";
+let age= 21;
+
+function sayName(){
+   console.log("My Name is " + fname+" age is "+ age)
+   console.log('My Name is ' + fname+' age is '+ age)
+   console.log(`My Name is ${fname} age is ${age}`)
+}
+sayName()
+
 
